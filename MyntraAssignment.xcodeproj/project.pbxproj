@@ -9,13 +9,21 @@
 /* Begin PBXBuildFile section */
 		56ADCDF125FF935800FCD7E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56ADCDF025FF935800FCD7E1 /* AppDelegate.swift */; };
 		56ADCDF325FF935800FCD7E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56ADCDF225FF935800FCD7E1 /* SceneDelegate.swift */; };
-		56ADCDF525FF935800FCD7E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56ADCDF425FF935800FCD7E1 /* ViewController.swift */; };
+		56ADCDF525FF935800FCD7E1 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56ADCDF425FF935800FCD7E1 /* ProductsViewController.swift */; };
 		56ADCDF825FF935800FCD7E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56ADCDF625FF935800FCD7E1 /* Main.storyboard */; };
 		56ADCDFB25FF935800FCD7E1 /* MyntraAssignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 56ADCDF925FF935800FCD7E1 /* MyntraAssignment.xcdatamodeld */; };
 		56ADCDFD25FF935D00FCD7E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56ADCDFC25FF935D00FCD7E1 /* Assets.xcassets */; };
 		56ADCE0025FF935D00FCD7E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56ADCDFE25FF935D00FCD7E1 /* LaunchScreen.storyboard */; };
 		56ADCE0B25FF935D00FCD7E1 /* MyntraAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56ADCE0A25FF935D00FCD7E1 /* MyntraAssignmentTests.swift */; };
 		56ADCE1625FF935D00FCD7E1 /* MyntraAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56ADCE1525FF935D00FCD7E1 /* MyntraAssignmentUITests.swift */; };
+		56ADCE2725FF93C400FCD7E1 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56ADCE2625FF93C300FCD7E1 /* APIClient.swift */; };
+		56ADCE2C25FF942300FCD7E1 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 56ADCE2B25FF942300FCD7E1 /* menu.json */; };
+		56ADCE3125FF9D7300FCD7E1 /* ProductViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56ADCE3025FF9D7300FCD7E1 /* ProductViewPresenter.swift */; };
+		56ADCE5125FFBB2600FCD7E1 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56ADCE4F25FFBB2600FCD7E1 /* ProductTableViewCell.swift */; };
+		56ADCE5225FFBB2600FCD7E1 /* ProductTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56ADCE5025FFBB2600FCD7E1 /* ProductTableViewCell.xib */; };
+		56ADCE6525FFBFE900FCD7E1 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56ADCE6325FFBFE900FCD7E1 /* Products.swift */; };
+		56ADCE6625FFBFE900FCD7E1 /* ProductsCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56ADCE6425FFBFE900FCD7E1 /* ProductsCategory.swift */; };
+		56ADCE952600924700FCD7E1 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56ADCE942600924700FCD7E1 /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +47,7 @@
 		56ADCDED25FF935800FCD7E1 /* MyntraAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyntraAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56ADCDF025FF935800FCD7E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56ADCDF225FF935800FCD7E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		56ADCDF425FF935800FCD7E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		56ADCDF425FF935800FCD7E1 /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
 		56ADCDF725FF935800FCD7E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		56ADCDFA25FF935800FCD7E1 /* MyntraAssignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyntraAssignment.xcdatamodel; sourceTree = "<group>"; };
 		56ADCDFC25FF935D00FCD7E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +59,14 @@
 		56ADCE1125FF935D00FCD7E1 /* MyntraAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyntraAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56ADCE1525FF935D00FCD7E1 /* MyntraAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyntraAssignmentUITests.swift; sourceTree = "<group>"; };
 		56ADCE1725FF935D00FCD7E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56ADCE2625FF93C300FCD7E1 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		56ADCE2B25FF942300FCD7E1 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		56ADCE3025FF9D7300FCD7E1 /* ProductViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewPresenter.swift; sourceTree = "<group>"; };
+		56ADCE4F25FFBB2600FCD7E1 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		56ADCE5025FFBB2600FCD7E1 /* ProductTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductTableViewCell.xib; sourceTree = "<group>"; };
+		56ADCE6325FFBFE900FCD7E1 /* Products.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		56ADCE6425FFBFE900FCD7E1 /* ProductsCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsCategory.swift; sourceTree = "<group>"; };
+		56ADCE942600924700FCD7E1 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +119,10 @@
 			children = (
 				56ADCDF025FF935800FCD7E1 /* AppDelegate.swift */,
 				56ADCDF225FF935800FCD7E1 /* SceneDelegate.swift */,
-				56ADCDF425FF935800FCD7E1 /* ViewController.swift */,
-				56ADCDF625FF935800FCD7E1 /* Main.storyboard */,
+				56ADCE8125FFDFAA00FCD7E1 /* Presenter */,
+				56ADCE4425FFA0E900FCD7E1 /* Models */,
+				56ADCE8025FFDF8E00FCD7E1 /* View */,
+				56ADCE7F25FFDF7000FCD7E1 /* Data Source */,
 				56ADCDFC25FF935D00FCD7E1 /* Assets.xcassets */,
 				56ADCDFE25FF935D00FCD7E1 /* LaunchScreen.storyboard */,
 				56ADCE0125FF935D00FCD7E1 /* Info.plist */,
@@ -129,6 +147,44 @@
 				56ADCE1725FF935D00FCD7E1 /* Info.plist */,
 			);
 			path = MyntraAssignmentUITests;
+			sourceTree = "<group>";
+		};
+		56ADCE4425FFA0E900FCD7E1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				56ADCE6325FFBFE900FCD7E1 /* Products.swift */,
+				56ADCE6425FFBFE900FCD7E1 /* ProductsCategory.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		56ADCE7F25FFDF7000FCD7E1 /* Data Source */ = {
+			isa = PBXGroup;
+			children = (
+				56ADCE2625FF93C300FCD7E1 /* APIClient.swift */,
+				56ADCE2B25FF942300FCD7E1 /* menu.json */,
+			);
+			path = "Data Source";
+			sourceTree = "<group>";
+		};
+		56ADCE8025FFDF8E00FCD7E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				56ADCDF425FF935800FCD7E1 /* ProductsViewController.swift */,
+				56ADCE942600924700FCD7E1 /* CustomButton.swift */,
+				56ADCE4F25FFBB2600FCD7E1 /* ProductTableViewCell.swift */,
+				56ADCE5025FFBB2600FCD7E1 /* ProductTableViewCell.xib */,
+				56ADCDF625FF935800FCD7E1 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		56ADCE8125FFDFAA00FCD7E1 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				56ADCE3025FF9D7300FCD7E1 /* ProductViewPresenter.swift */,
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +292,8 @@
 			files = (
 				56ADCE0025FF935D00FCD7E1 /* LaunchScreen.storyboard in Resources */,
 				56ADCDFD25FF935D00FCD7E1 /* Assets.xcassets in Resources */,
+				56ADCE5225FFBB2600FCD7E1 /* ProductTableViewCell.xib in Resources */,
+				56ADCE2C25FF942300FCD7E1 /* menu.json in Resources */,
 				56ADCDF825FF935800FCD7E1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,9 +319,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56ADCDF525FF935800FCD7E1 /* ViewController.swift in Sources */,
+				56ADCDF525FF935800FCD7E1 /* ProductsViewController.swift in Sources */,
 				56ADCDFB25FF935800FCD7E1 /* MyntraAssignment.xcdatamodeld in Sources */,
+				56ADCE6625FFBFE900FCD7E1 /* ProductsCategory.swift in Sources */,
+				56ADCE5125FFBB2600FCD7E1 /* ProductTableViewCell.swift in Sources */,
+				56ADCE952600924700FCD7E1 /* CustomButton.swift in Sources */,
 				56ADCDF125FF935800FCD7E1 /* AppDelegate.swift in Sources */,
+				56ADCE3125FF9D7300FCD7E1 /* ProductViewPresenter.swift in Sources */,
+				56ADCE6525FFBFE900FCD7E1 /* Products.swift in Sources */,
+				56ADCE2725FF93C400FCD7E1 /* APIClient.swift in Sources */,
 				56ADCDF325FF935800FCD7E1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
