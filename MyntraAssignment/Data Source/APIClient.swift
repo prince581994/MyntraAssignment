@@ -19,11 +19,11 @@ class APIClient:NSObject {
     }
     private func parse(jsonData: Data) -> [Products] {
         do {
-            let decodedData = try! JSONDecoder().decode(Array<Products>.self, from: jsonData)
+            let decodedData = try JSONDecoder().decode(Array<Products>.self, from: jsonData)
             return decodedData
         } catch {
             print("decode error")
         }
-        
+        return []
     }
 }
